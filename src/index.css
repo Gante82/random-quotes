@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+@media(min-width:992px) {
+  .jumbotron {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    min-height: 350px;
+    min-width: 50%;
+  }
+}
+
+@media(max-width:991px) {
+  .jumbotron {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-40%, -40%);
+    width: 90% !important;
+  }
+}
